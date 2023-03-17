@@ -1,0 +1,72 @@
+
+@font-face
+{
+    font-family: myFont;
+    src: url(GreatVibes-Regular.ttf);
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+/* .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column img
+  {
+    max-width: 320px;
+    align-items: center;
+  }
+  .column
+  {
+    background-color:#fdf6f0;
+
+  } */
+  .section-header h3{
+    font-family: myFont;
+    font-size: 48px;
+    line-height:
+53px;
+vertical-align:
+baseline;
+letter-spacing:
+0.5px;
+word-spacing:
+0px;
+margin:
+10px 0px 20px;
+padding:0px;
+font-weight:
+400;
+font-style:
+normal;
+font-variant:
+normal;
+text-transform:
+none;
+text-decoration:
+none solid rgb(0, 9, 20);
+text-align:
+start;
+text-indent:
+0px;
+  }
+ .row{
+    
+    display: grid;
+   grid-auto-flow: column;
+   grid-auto-columns: 30%;
+   gap:var(--size-3);
+
+
+   /* overflow-:auto 
+   overscroll-behavior-inline:contain;*/
+
+  };
+  
+ 
